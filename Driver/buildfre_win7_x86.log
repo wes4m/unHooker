@@ -1,0 +1,6 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\users\hp\desktop\unhooker\driver directory for files to compile.
+oacr invalidate root:x86fre /autocleanqueue
+1>Compiling and Linking c:\users\hp\desktop\unhooker\driver *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>c:\users\hp\desktop\unhooker\driver: TARGETPATH is .

@@ -1,0 +1,22 @@
+﻿Build started 14/05/34 09:48:19 م.
+     1>Project "C:\Users\HP\Desktop\unHooker\Loader\unHooker\unHooker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(90): warning C4129: ' ' : unrecognized character escape sequence
+     1>Source.cpp(92): warning C4129: ' ' : unrecognized character escape sequence
+     1>Source.cpp(155): warning C4804: '>' : unsafe use of type 'bool' in operation
+     1>Source.cpp(166): warning C4804: '>' : unsafe use of type 'bool' in operation
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Desktop\unHooker\Loader\unHooker\Release\unHooker.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib psapi.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\unHooker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\HP\Desktop\unHooker\Loader\unHooker\Release\unHooker.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Desktop\unHooker\Loader\unHooker\Release\unHooker.lib" /MACHINE:X86 Release\Source.obj
+         Generating code
+     1>c:\users\hp\desktop\unhooker\loader\unhooker\source.cpp(151): warning C4700: uninitialized local variable 'procName' used
+         Finished generating code
+         unHooker.vcxproj -> C:\Users\HP\Desktop\unHooker\Loader\unHooker\Release\unHooker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\HP\Desktop\unHooker\Loader\unHooker\Release\unHooker.exe;#1" /manifest Release\unHooker.exe.intermediate.manifest
+     1>Done Building Project "C:\Users\HP\Desktop\unHooker\Loader\unHooker\unHooker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
